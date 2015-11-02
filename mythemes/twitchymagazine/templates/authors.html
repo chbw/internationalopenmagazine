@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Authors - {{ SITENAME }}{% endblock %}
+
+
+
+{% block content %}
+    <section id="authors">
+        <h1>Authors of {{ SITENAME }}</h1>
+        <div class="panel-group" id="accordion">
+            {%- for author, articles in authors|sort %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{author.slug}}">{{ author }} <span class="badge pull-right">{{ articles|count }}</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-{{author.slug}}" class="panel-collapse collapse">
+                    <div class="panel-body">
+                    {% for article in articles %}
+                        <p> <span class="categories-timestamp"><i class="fa fa-calendar padding-small"></i><time datetime="{{ article.date.isoformat() }}"> {{ article.date|strftime('%Y-%m-%d') }} </time></span>  <i class="fa fa-folder-open padding-small"></i><i>{{ article.category }}</i>: <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a>     <i class="fa fa-tags padding-small"></i> {% for tag in article.tags %} <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %} / {% endif %}{% endfor %}</p>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </section>
+{% endblock %}    
+

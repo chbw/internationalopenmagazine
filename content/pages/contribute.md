@@ -23,9 +23,16 @@ The **International Open Magazine** needs especially articles about the topics *
 
 ## instructions
 
-Detailed instructions of how to submit content via [git](https://de.wikipedia.org/wiki/Git) can be found at the [official Github project](https://github.com/horstjens/internationalopenmagazine) page of the **International Open Magazine**.
+Detailed instructions of how to submit content via [git](https://de.wikipedia.org/wiki/Git) can be found at the [official Github project](https://github.com/horstjens/internationalopenmagazine) page of the **International Open Magazine**:
 
-It is also possible to simply send the article by email to: `horstjens@gmail.com`
+  * inside [README.md](https://github.com/horstjens/internationalopenmagazine/blob/master/README.md) if you knwo how to work with Github / git
+  * inside [localinstall.md](https://github.com/horstjens/internationalopenmagazine/blob/master/localinstall.md) if you have no experience with git
+
+It is also possible to simply send the article by email to: `horstjens@gmail.com`. 
+
+## Text format
+
+  * Please send an textfile in [Markdown](https://guides.github.com/features/mastering-markdown/) format. See and modify  [template.md](https://github.com/horstjens/internationalopenmagazine/blob/master/template.md) accrding to your needs
 
 
 

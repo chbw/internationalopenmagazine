@@ -1,8 +1,8 @@
-Title: review: learn to code with codewars.com and codecombat.com
+Title: learn to code with codewars.com and codecombat.com
 Date: 2015-07-02 11:30
-Tags: 2015, coding, learning 
+Tags: coding, teaching, review
 Slug: 2015-07-02-codewarscodecombat
-Authors: Horst JENS
+Authors: JENS Horst 
 Summary: <div style="float: left; padding:5px"><img src="http://spielend-programmieren.at/blog/images/20150702_codecombat.png" width="100" alt="logo"></div>A quick look into two interesting, open-source aware websites to learn and train coding skills: codecombat.com and codewars.com<div style="clear:both;"></div>
 
 # learn to code

@@ -1,10 +1,14 @@
-Title: podcast: international open podcast alpha 2
+Title: international open podcast alpha 2
 Date: 2015-10-13 18:30
 Modified: 2015-10-26 18:31
 tags: code, report
 Slug: 2015-10-13-internationalopenpodcast_alpha2
 status: published
-Authors: Horst JENS, Derek BREEN, Gregor PRIDUN, Denis KNAUF, Bernd SCHLAPSI, Thomas PERL
+ICBM: 48.201724, 16.340746
+GeoRegion: AT-9
+GeoPlacename: Wien
+GeoPosition: 48.201724; 16.340746
+Authors: JENS Horst, BREEN Derek, PRIDUN Gregor, KNAUF Denis, SCHLAPSI Bernd, PERL Thomas
 Summary: <div style="float: left; padding:5px"><img src="/images/international-open-podcast-logo.png" width="100" alt="logo"></div> The second episode of our podcast, already with a name. published as Biertaucherpodcast 226 and later renamed into **international open podcast alpha 2**. Derek speaks about African Code week and his Turtlestitch / Scratch Workshop in Vienna.<div style="clear:both;"></div> 
 
 This podcast was made while Derek was in Vienna after working in South Africa for African Code week. In Vienna Derek did an workshop together with Andrea Mayr (turtlestitch project) and promoted his "scratch-for-kids-for-dummies" book as part of European Code Week 2015 (hashtag: #codeEU). 

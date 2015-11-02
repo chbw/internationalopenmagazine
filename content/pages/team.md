@@ -16,6 +16,7 @@ Horst JENS (left) and Derek Breen (right) near Maker Faire Rome oct 2015
 
   * Publisher and Chief Editor: [Horst JENS](http://spielend-programmieren.at/de:kontakt) `horst.jens@spielend-programmieren.at`
   * Art Director: [Derek BREEN](https://twitter.com/breenworks) `breenworks@gmail.com`
+  * complete list of [all authors](/authors.html)
 
 
 ## imprint

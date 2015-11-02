@@ -1,10 +1,10 @@
 Title: Maker Faire Rome - article in progress
 Date: 2015-10-26 18:42
 Modified: 2015-10-26 18:42
-tags: report, conference, 
+tags: report, conference
 Slug: 2015-10-26-makerfairerome
 status: draft
-Authors: Horst JENS
+Authors: JENS Horst
 Summary: <div style="float: left; padding:5px"><img src="/images/doppeltuxklein.jpeg" width="100" alt="logo"></div> While i still have to write an article about Maker Faire Rome 2015, there is already a podcast to hear and a photo album to see.<div style="clear:both;"></div>
 
 I'm busy writing an article about my roadtrip with Derek Breen toward Maker Faire Rome 2015 (hashtag: #MFR15) Meanwhile, we talked about out adventures in the first epidsode of the **international open podcast**. It can be found here:

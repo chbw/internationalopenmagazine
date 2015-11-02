@@ -1,9 +1,13 @@
-Title: report: Maker Faire Rome 2015
+Title: my trip to Maker Faire Rome 2015
 Date: 2015-10-27 14:30
 Modfied: 2015-10-29 08:23
 Tags: report, conference, making
 Slug: 2015-10-27-makerfairerome
-Authors: Horst JENS
+ICBM: 41.902771, 12.511618
+GeoRegion: IT-RM
+GeoPlacename: Roma
+GeoPosition: 41.902771; 12.511618
+Authors: JENS Horst
 Summary: <div style="float: left; padding:5px"><img src="http://internationalopenmagazine.org/images/2015-10-27-makerfairerome/makerlogo.jpg" width="100" alt="Maker Faire rome logo"></div>Report of my visit to the Maker Faire Rome 2015 with many photos and some personal impressions of Rome, Italians and the Maker movement. Enriched with travel tips, a promise to come back next year and "how to troll the press center" and "how to make Makers happy" tutorials.<div style="clear:both;"></div>
 
 

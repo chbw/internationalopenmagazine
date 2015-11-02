@@ -2,34 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-### twitchy theme
-#--------------------------------------------------- | -----------
-#`SITESUBTITLE` | Provide a description of your site, inserted into landing page jumbatron
-#`RECENT_POST_COUNT = 5` | How many post should be displayed on the landing page.
-#`EXPAND_LATEST_ON_INDEX` | Expand the Latest Articles Section in the Sidebar if you are on `index.html`
 
-### more colours?
-#Setting name (followed by default value, if exists) | Description
-#--------------------------------------------------- | -----------
-#`BOOTSTRAP_THEME = "bootstrap"` | Which bootstrap theme should be loaded, see static/css for a list.
-#`PYGMENTS_STYLE = "native"` | Which pygments theme should be loaded, see static/css for a list.
-#`TYPOGRIFY = False` | If Typogrify css should be loaded
-#`CUSTOM_CSS` | Can be used to provide an additional css file, e.g.: `CUSTOM_CSS = "extra/custom.css"`
-
-### sidebar
-#Setting name (followed by default value, if exists) | Description
-#--------------------------------------------------- | -----------
-#`SHARE = False` | Provide simple non tracking sharing buttons (fb, g+, twitter) for articles/pages and the landing page
-#`SOCIAL` | Links to your profile on other site, complete with icon, e.g.: `SOCIAL = (('Twitter', 'https://twitter.com/derwinlu'), ('Bitbucket', 'https://bitbucket.org/winlu'))`
-#`SITELOGO` | Add a SiteLogo to your Sidebar, expects the path to the logo similar to `CUSTOM_CSS`
-#`SITELOGO_SIZE` | width attribute of `SITELOGO`'s `img` tag.
-#`HIDE_SITENAME` | hides the sitename from the sidebar, useful if your sitelogo already contains your sitename.
-#`DISPLAY_RECENT_POSTS_ON_MENU` | Displays recent articles in the sidebar, count is determined by `RECENT_POST_COUNT`
-#`DISPLAY_PAGES_ON_MENU` | Displays pages in sidebar.
-#`DISPLAY_CATEGORIES_ON_MENU` | Displays category list in sidebar.
-#`DISPLAY_TAGS_ON_MENU` | Displays tag list in sidebar.
-
-
+SHOW_ARTICLE_AUTHOR = True
+DISPLAY_BREADCRUMBS = True
 
 AUTHOR = u'Horst JENS'
 SITENAME = u'international open magazine'
@@ -45,8 +20,21 @@ HIDE_SITENAME = False
 DISPLAY_RECENT_POSTS_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
-DISPLAY_TAGS_ON_MENU = False
+DISPLAY_TAGS_ON_MENU = False # must be False or tags wont work
+DISPLAY_TAGS_INLINE = False
+#HORST_MENU = True
 RECENT_POST_COUNT = 15
+SIDEMENUTAGS = ['REPORT', 'REVIEW', 'TEACHING', 'CODING', 'MAKING']
+
+
+
+
+#from functools import partial
+#JINJA_FILTERS = {
+##    'sort_by_article_count': partial(
+#        sorted,
+#        key=lambda tags: len(tags[1]),
+#        reverse=True)} # reversed for descending order
 
 
 #PLUGIN_PATHS = [u'/home/horst/code/internationalopenmagazine/plugins/']

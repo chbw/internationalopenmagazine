@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Tags - {{ SITENAME }}{% endblock %}
+
+
+
+{% block content %}
+    <section id="tags">
+        <h1>Tags for {{ SITENAME }}</h1>
+        <div class="panel-group" id="accordion">
+            {%- for tag, articles in tags|sort %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-{{tag.slug}}">{{ tag }} <span class="badge pull-right">{{ articles|count }}</span></a>
+                    </h4>
+                </div>
+                <div id="collapse-{{tag.slug}}" class="panel-collapse collapse">
+                    <div class="panel-body">
+                    {% for article in articles %}
+                        <p><span class="categories-timestamp"><i class="fa fa-calendar padding-small"></i><time datetime="{{ article.date.isoformat() }}"> {{ article.date|strftime('%Y-%m-%d') }} </time></span>  <i class="fa fa-folder-open padding-small"></i><i>{{ article.category }}</i>: <a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a> by 
+                               {% for author in article.authors %} <a href="{{ SITEURL }}/{{ author.url }}"><i class="fa fa-user padding-small"></i>{{ author }}</a>{% endfor %}</p>
+                    {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </section>
+{% endblock %}

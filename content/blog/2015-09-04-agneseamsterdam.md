@@ -1,14 +1,18 @@
-Title: report: What happened at the Scratch conference Amsterdam
+Title: What happened at the Scratch conference Amsterdam
 Date: 2015-09-04 14:30
 Modfied: 2015-10-29 06:30
-Tags: report, conference, coding
+Tags: report, conference, coding, teaching
 Slug: 2015-19-04-agneseamsterdam
-Authors: Agnese Addone
+ICBM: 52.372774, 4.90035
+GeoRegion: NL-NH
+GeoPlacename: Amsterdam
+GeoPosition: 52.372774; 4.90035
+Authors: ADDONE Agnese
 Summary: <div style="float: left; padding:5px"><img src="images/2015-09-04-agneseamsterdam/io_catemos.jpg" width="100" alt="Maker Faire rome logo"></div>Agnese Addone tells what happened at the Scratch conference Amsterdam 2015<div style="clear:both;"></div>
 
 
 <div style="float:right; padding: 5px; margin: 5px; background-color: #BBBBBB;">
-<b>Name</b>: <a href="https://it.linkedin.com/pub/agnese-addone/94/ba7/a02/en">Agnese Addone</a><br>
+<b>Name</b>: <a href="https://it.linkedin.com/pub/agnese-addone/94/ba7/a02/en">Agnese ADDONE</a><br>
 <b>Contact</b>: <a href="https://twitter.com/agaddone">@agaddone</a><br>
 <b>Shorturl</b>: <a href="http://goo.gl/6fNoGV">http://goo.gl/6fNoGV</a><br>
 <b>Hashtag</b>: <tt>&#35;ScratchAMS2015</tt><br>

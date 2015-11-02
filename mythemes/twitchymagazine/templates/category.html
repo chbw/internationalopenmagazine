@@ -1,5 +1,7 @@
 {% extends "include/article_list.html" %}
 {% block title %}{{ category }} - {{ SITENAME }}{% endblock %}
+
+
 {% block meta %}
     <meta name="author" content="{{ AUTHOR }}" />
     <meta name="keywords" content="{{ category }}" />
@@ -11,11 +13,15 @@
 <div class="row">
     <div class="col-lg-9">
         <header class="page-header">
-            <h1>Articles in {{ category }}</h1>
+            <h1>all items in category "{{ category }}" </h1>            
+                
         </header>
     </div>
 </div>
+
+
 {% if category == 'podcast' %}
-some specific podcast text
+    some specific podcast text
 {% endif %}
+
 {% endblock %}

@@ -1,0 +1,20 @@
+{% extends "include/article_list.html" %}
+
+{% block title %}Articles by {{ author }} - {{ SITENAME }}{% endblock %}
+
+{% block breadcrumbs %}
+    {% if DISPLAY_BREADCRUMBS %}
+        <ol class="breadcrumb">
+            <li><a href="{{ SITEURL }}" title="{{ SITENAME }}"><i class="fa fa-home fa-lg"></i></a></li>
+            <li><a href="{{ SITEURL }}/{{ AUTHORS_URL|default('authors.html') }}" title="Authors">Authors</a></li>
+            <li class="active">{{ AUTHOR }}</li>
+        </ol>
+    {% endif %}
+
+{% endblock %}
+    
+    <h1>All items of {{ SITENAME }} from {{ author }} - </h1>
+    
+    see the [team](/pages/team.html) site for (contact) information about authors
+    
+
