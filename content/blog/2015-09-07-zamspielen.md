@@ -6,7 +6,7 @@ Slug: 2015-09-07-zamspielen
 authors: JENS Horst
 ICBM: 48.19974, 16.37024
 GeoRegion: AT-9
-GeoPlacename: Wien
+GeoPlacename: Vienna
 GeoPosition: 48.19974; 16.370024
 Summary: <div style="float: left; padding:5px"><img src="https://farm6.staticflickr.com/5786/21204926312_907f39bca3_t.jpg" height="100" alt="2015 09 06 zamSpielen Wien Resselpark"><img src="/images/zamspielen.png" alt="zamspielend logo" height="100"><img src="/images/horst.png" alt="Horst JENS" height="100"></div>Impressions of the "zam spielen #10" social computer game event in Vienna with photos.<div style="clear:both;"></div>
 

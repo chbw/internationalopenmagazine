@@ -5,7 +5,7 @@ Tags: interview, coding, art, review, books
 Slug: 2015-10-29-lucyderek
 ICBM: 48.224938, 16.368992
 GeoRegion: AT-9
-GeoPlacename: Wien
+GeoPlacename: Vienna
 GeoPosition: 48.224938; 16.368992
 Authors: HOCHGSTÖTTNER Lucy, BREEN Derek
 Summary: <div style="float: left; padding:5px"><img src="https://farm1.staticflickr.com/722/22412924311_d1fb196f39_t.jpg" height="100" alt="Lucy"> <img src="https://farm6.staticflickr.com/5676/22412924671_05fa0341d9_t.jpg" height="100" alt="Derek"></div>Lucy (student at [spielend-programmieren programming courses](http://spielend-programmieren.at)) makes her first interview with Derek Breen about his book: **Scratch for kids for dummies**<div style="clear:both;"></div>

@@ -7,7 +7,7 @@ Slug: 2015-11-01-collecting
 Authors: JENS Horst 
 ICBM: 48.239636, 16.37775               
 GeoPosition: 48.239636: 16.37775        
-GeoPlacename:  Wien                         
+GeoPlacename:  Vienna                         
 GeoRegion:  AT-9                            
 Summary: <div style="float: left; padding:5px"><img src="/images/woodenpuppets.jpg" width="100" alt="wooden teamwork puppets" title="cc-0 by https://pixabay.com/en/articulated-male-meeting-together-818202/#"></div>No magazine issues yet - more articles wanted<div style="clear:both;"></div>
 

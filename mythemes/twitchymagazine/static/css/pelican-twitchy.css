@@ -2,6 +2,8 @@
     background: #272724;
 }
 
+
+
 #wrapper {
     padding-left: 40px;
     /*
@@ -80,6 +82,11 @@
     line-height: 40px;
 }
 
+.sidebar-smallnav li {
+    text-indent: 20px;
+    line-height: 20px;
+}
+
 .sidebar-nav-small li {
     text-indent: 5px;
     font-size: 18px;
@@ -100,6 +107,14 @@
     padding-left: 0px;
     list-style: none;
 }
+
+.sidebar-smallnav li a {
+    display: inline;
+    text-decoration: none;
+    color: #999999;
+    padding-right: 10px;
+}
+
 
 .sidebar-nav li a {
     display: block;
@@ -185,6 +200,8 @@ ul.sidebar_submenu>li>a>i.padding-small{
     display: block;
     margin: 0 auto;
 }
+
+
 
 .jumbotron h1{
     margin-top: 0px;

@@ -6,7 +6,7 @@ Slug: 2015-10-20-internationalopenpodcast_episode_001
 status: published
 ICBM: 48.201724, 16.340746
 GeoRegion: AT-9
-GeoPlacename: Wien
+GeoPlacename: Vienna
 GeoPosition: 48.201724; 16.340746
 Authors: JENS Horst, HASLINGER Stefan, KNAUF Denis , BREEN Derek
 Summary: <div style="float: left; padding:5px"><img src="/images/international-open-podcast-logo.png" width="100" alt="logo"></div> Our third  podcast, and the first **official** one. Published as Biertaucherpodcast 227 and later renamed into **international open podcast episode 001**. Derek and Horst talk about their trip to Maker Faire Rome 2015 in Italy, Stefan speaks about the refugee Hackathon in Vienna.<div style="clear:both;"></div>

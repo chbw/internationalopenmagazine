@@ -1,12 +1,12 @@
 Title: international open podcast alpha1
 Date: 2015-08-25 18:30
 Modified: 2015-10-29 07:14
-tags: conference, code, report
+tags: conference, coding, report
 Slug: 2015-08-25-internationalopenpodcast_alpha1
 status: published
 ICBM: 48.217124, 16.352994
 GeoRegion: AT-9
-GeoPlacename: Wien
+GeoPlacename: Vienna
 GeoPosition: 48.217124;16.352994
 Authors: JENS Horst, PRIDUN Gregor, BREEN Derek
 Summary: <div style="float: left; padding:5px"><img src="/images/international-open-podcast-logo.png" width="100" alt="logo"></div> The first test version of our podcast, without name yet. published as Biertaucherpodcast 219 and later renamed into **international open podcast alpha 1**. Derek and Horst talk about the Scratch conference Amsterdam.<div style="clear:both;"></div>

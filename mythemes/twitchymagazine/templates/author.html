@@ -1,7 +1,7 @@
 {% extends "include/article_list.html" %}
 
 {% block title %}Articles by {{ author }} - {{ SITENAME }}{% endblock %}
-
+  
 {% block breadcrumbs %}
     {% if DISPLAY_BREADCRUMBS %}
         <ol class="breadcrumb">
@@ -12,9 +12,17 @@
     {% endif %}
 
 {% endblock %}
+
     
-    <h1>All items of {{ SITENAME }} from {{ author }} - </h1>
-    
-    see the [team](/pages/team.html) site for (contact) information about authors
-    
+{% block precontent %}
+<div class="row">
+    <div class="col-lg-9">
+        <header class="page-header">
+            <h1>all items from  {{ author }}</h1>
+            <small>see also <a href="/authors.html">authors</a> and <a href="/pages/team.html">team</a> for more information</small>
+            
+        </header>
+    </div>
+</div>
+{% endblock %}    
 

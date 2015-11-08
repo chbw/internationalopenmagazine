@@ -18,17 +18,6 @@ Horst JENS (left) and Derek Breen (right) near Maker Faire Rome oct 2015
   * Art Director: [Derek BREEN](https://twitter.com/breenworks) `breenworks@gmail.com`
   * complete list of [all authors](/authors.html)
 
-
-## imprint
-
-    Horst JENS
-    Brigittenauerlände 6
-    1020 Wien
-    Austria
-    email: horst.jens@spielend-programmieren.at
-    tel: +43 660 52 65 377
-    web: http://spielend-programmieren.at/de:kontakt
-
 ## authors
 
 please note that most content of the **International Open Magazine** will be not submitted by the team members above but by others. To become an author, please see the page [contribute](/pages/contribute.html).

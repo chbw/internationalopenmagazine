@@ -21,7 +21,11 @@
                  <i class="fa fa-folder-open padding-small"></i><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
             </span>
             {% if article.icbm %}
-            {% set geolist = article.icbm.split(',') %}            
+                {% set geolist = article.icbm.split(',') %}
+            {% endif %}
+            {% if article.geoplacename and article.icbm %}
+                Geodata: <a href="http://www.openstreetmap.org/?mlat={{- geolist[0] }}&mlon={{- geolist[1] }}#map=16/{{ article.icbm|replace(", ","/") }}&layers=N">{{ article.geoplacename }}</a>
+            {% elif article.icbm %}
                 Geodata: <a href="http://www.openstreetmap.org/?mlat={{- geolist[0] }}&mlon={{- geolist[1] }}#map=16/{{ article.icbm|replace(", ","/") }}&layers=N">{{ article.icbm }}</a>
             {% endif %}
             {% if article.tags %}

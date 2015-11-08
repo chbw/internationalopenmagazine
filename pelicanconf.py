@@ -10,10 +10,10 @@ AUTHOR = u'Horst JENS'
 SITENAME = u'international open magazine'
 #SITEURL = u'http://internationalopenmagazine.org'
 SITEURL = ''
-SITESUBTITLE = u'open source. open education. open everything!'
+SITESUBTITLE = u'free/libre open source software. open education. open everything!'
 #RECENT_POST_COUNT = 15
 #EXPAND_LATEST_ON_INDEX = True
-SHARE = True
+SHARE = False
 SITELOGO = '/images/international-open-magazine-logo-small-gradient.png'
 SITELOGO_SIZE = 200
 HIDE_SITENAME = False
@@ -82,17 +82,16 @@ SOCIAL = (
           ('Mailinglist','https://groups.google.com/forum/#!forum/internationalopenmagazine' ),
           ('Twitter', 'https://twitter.com/search?q=%23intopenmag&src=typd'),
           ('Github', 'https://github.com/horstjens/internationalopenmagazine'),
-          ('Google+ Site', 'https://plus.google.com/b/101914803942842117545/101914803942842117545/posts'),
-          ('Google+ Community', 'https://plus.google.com/b/101914803942842117545/communities/114297625315121661514'),
-          ('Facebook page', 'https://www.facebook.com/internationalopenmagazine'),
-          ('Facebook Group', 'https://www.facebook.com/groups/1660191657562162/'),
+          ('Google+', 'https://plus.google.com/b/101914803942842117545/101914803942842117545/posts'),
+          ('Facebook', 'https://www.facebook.com/internationalopenmagazine'),
           ('Diaspora', 'https://joindiaspora.com/tags/intopenmag'),
           ('Gnusoical.de', 'https://gnusocial.de/search/notice?q=%23intopenmag'),
-          ('reddit', 'https://www.reddit.com/r/intopenmag/'),
+          ('Reddit', 'https://www.reddit.com/r/intopenmag/'),
           )
-
+# ('Google+ Community', 'https://plus.google.com/b/101914803942842117545/communities/114297625315121661514'),
+# ('Facebook Group', 'https://www.facebook.com/groups/1660191657562162/'),
 DEFAULT_PAGINATION = 200
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-THEME = "/home/horst/code/internationalopenmagazine/mythemes/twitchymagazine"
+THEME = "mythemes/twitchymagazine"

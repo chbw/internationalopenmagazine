@@ -13,18 +13,21 @@
 <div class="row">
     <div class="col-lg-9">
         <header class="page-header">
-            <h1>all items in the category "{{ category }}"
-                {% if category == 'podcast' %}
-                    some specific podcast text
-                {% endif %}
-                {% if category == 'blog' %}
-                    some blog  text
-                {% endif %}
-                {% if category == 'magazine' %}
-                    some magazine text
-                {% endif %}
             
-             </h1>            
+       {% if category == 'podcast' %}
+           <h1>all items in the category "{{ category }}" </h1>            
+                podcast feed coming soon
+       {% elif category == 'blog' %}
+           <h1>all items in the category "{{ category }}" </h1>            
+                Most articles start as an blog entry
+       {% elif category == 'magazine' %}
+           <h1>all items in the category "{{ category }}" </h1>            
+                Magazine issues will bundle several articles 
+       {% else %}
+            <h1>all items in the category "{{ category }}" </h1>            
+       {% endif %}
+            
+             
                 
                 
                 
